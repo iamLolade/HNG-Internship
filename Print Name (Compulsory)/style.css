@@ -1,0 +1,27 @@
+body {
+  width: 80%;
+  margin: 80px;
+}
+
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.block {
+  display: inline-block;
+  width: 20%;
+  border: none;
+  background-color: #04AA6D;
+  padding: 14px 18px;
+  font-size: 22px;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 900;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 9px;
+}
+
+.block:hover {
+  opacity: 0.75;
+}
